@@ -1,0 +1,10 @@
+{
+	"plugin-data":
+	{
+		"name": "Navigation",
+		"description": "Shows all pages with or without subpages."
+	},
+	"display": "Display",
+	"show-subpages": "Show subpages",
+	"hide-subpages": "Hide suppages"
+}
