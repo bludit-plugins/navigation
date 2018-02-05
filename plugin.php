@@ -61,7 +61,7 @@ class pluginNavigation extends Plugin {
             if ( !empty($pagesByParent[$Parent->key()]) && $this->getValue('display') == 'true' ) {
 				$html.= '<ul>';
 				foreach ($pagesByParent[$Parent->key()] as $Child) {
-					$html.= '<li class="menu"><a href="'.$Child->permalink().'">'.$Child->title().'</li>';
+					$html.= '<li class="menu"><a href="'.$Child->permalink().'">'.$Child->title().'</a></li>';
 	        	}
 				$html.= '</ul>';
 			}
